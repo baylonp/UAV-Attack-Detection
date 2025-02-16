@@ -63,4 +63,28 @@ Regarding the Naive Bayesian model, the PCA reduces the features from 49 to 10, 
 
 The accuracy decreases for the Decision Tree model because of how PCA works, creating fictituous features, in this way the decision tree doesn't work well. 
 
+# Dataset 2
+
+![image](https://github.com/user-attachments/assets/8505706f-a774-46fe-b895-de8ee20c7f74)
+
+Decision tree looses accuracy with PCA becasue there are less features and also applying PCA, as we already sad, create fictitious features that compromise the overall model.
+
+Regardin Non-PCA operations, Naive bayesia Model instead improves a lot, since features are reduced a lot and also becasue the fetures are less correlated with respect to the dataset 1, as we can from the correlation matrix below
+
+
+![image](https://github.com/user-attachments/assets/43d0c61f-444b-4ac4-9457-8d70f0ba1c06)
+
+
+# Feature Importance
+
+One impotant thing to get from these graphs below is that among the most important features, we have physical features. They help a lot the model in classifying classes correctly.
+
+DATASET 1
+![image](https://github.com/user-attachments/assets/c5c90fef-f4f5-49f8-91c5-728d8e8ed695)
+
+
+
+DATASET 2
+![image](https://github.com/user-attachments/assets/b032bfbd-0605-42b6-aa08-8d1fc3f8d66a)
+
 
