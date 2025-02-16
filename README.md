@@ -10,15 +10,16 @@ As you can see, the dataset comprises 5 classes (Bening, DoS, Replay Attack, Evi
 
 In total, for every class, we had 37 Cyber-Features and 16 Physical Features. Later in the study, we discovered that not all the classes have the same features. As it is the case for the data belonging to the Evil Twin attack, so we decided to create two different dataset:
 
-- 1st Dataset --> Only Classes with common features (Bening, DoS, Replay) , 37 + 16 features in total
+- **1st Dataset** --> Only Classes with common features (Bening, DoS, Replay) , 37 + 16 features in total
+  
 ![image](https://github.com/user-attachments/assets/637f4456-3482-4753-9608-592057d5fab5)
 
-- 2nd Dataset --> All the classes, but just the common features. So now we work on Bening, DoS, Replay, Evil twin with just 17 features in total
+- **2nd Dataset** --> All the classes, but just the common features. So now we work on Bening, DoS, Replay, Evil twin with just 17 features in total
+  
 ![image](https://github.com/user-attachments/assets/f471ed14-97c6-42e0-87ee-5aeddb1b9d78)
 
 
 
-METTERE FOTO DISTRIBUZIONE CLASSI DEI DUE DATASET
 
 # How to create one single dataset from 2 groups of features?
 Since cyber and phyisical features needed to be put in one single dataset in order for the model to be trained on, we itered on all the timestamps of the cyber and physical features (yes, every tuple had a timestap) and for every physical tuple, we addedd those features to the closest timestamp in the cyber tuple. In the end, we had 51 feaures rich tuples (37 +16 = 53, 53 - 2 = 51; we removed the 'timestamp' and 'barometer' features)
@@ -37,14 +38,29 @@ For every model, we applied two different types of normalization (z-score and Mi
 
 # Dataset 1 Analysis
 
-METTERE TABELLA VALORI ACCURACY
 
 ![image](https://github.com/user-attachments/assets/1ca48f34-1bb9-4899-a40b-c5a490970234)
 
 
-why min - max and Z-score are the same for Decision Tree and Naive Bayesian. Decision tree doesnt weights the features, so normalization doesn't change anything. Also NaiveBayesian already uses mean and standard deviation for calculating the probabilities, so measures are already normalized.
-why instead for MMFFNN the accuracy increases  using z-score. here in this model weights are applied to feature so evidently the use of z-score normalization works better because some outliers perturbs the min max method.
+**Why accuracy values using Min-Max or Z-score normlaization are the same for Decision Tree and Naive Bayesianmodels?** Because Decision tree doesnt weights the features, so normalization doesn't change anything. Also NaiveBayesian already uses mean and standard deviation for calculating the probabilities, so measures are already normalized.
 
-ALso, Naive Bayesian perfroms poorly because of the assumption it makes about the feature: THEY ARE ALL INDEPENDENT. Evidently, this is not the case as we can see from slide 19, there are many featuresa that are coorelated in the dataset 1.
-ALso, Naive Bayes model suffers from the curse fo diensionality because it calculates the propability for each feature independently, and here we have 51 features.
+**Why instead for MMFFNN the accuracy increases  using z-score?** here in this model weights are applied to feature so evidently the use of z-score normalization works better because some outliers perturb the Min-Max method.
+
+ALso, Naive Bayesian perfroms poorly because of the assumption it makes about the feature: THEY ARE ALL INDEPENDENT. Evidently, this is not the case as we can see from the heatmap below, there are many featuresa that are coorelated.
+
+![image](https://github.com/user-attachments/assets/8029d883-bccd-4c67-8c7f-a5be46cb4a8c)
+
+
+
+Also, Naive Bayes model suffers from the **curse fo diensionality** because it calculates the propability for each feature independently, and here we have 51 features.
+
+# PCA Analysis
+
+![image](https://github.com/user-attachments/assets/9e61587c-3999-438b-acd7-363779f0096a)
+
+
+Regarding the Naive Bayesian model, the PCA reduces the features from 49 to 10, and so the model is not anymore affected by the curse of dimensionality and improves a bit.
+
+The accuracy decreases for the Decision Tree model because of how PCA works, creating fictituous features, in this way the decision tree doesn't work well. 
+
 
