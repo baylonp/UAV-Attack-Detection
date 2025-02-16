@@ -5,7 +5,7 @@ IN this project, me and my colleague wanted to apply some knowledge of Artificia
 
 # Dataset
 
-The hardest thing to do was working on the dataset. We took it from (here)[https://github.com/uamughal/UAVs-Dataset-Under-Normal-and-Cyberattacks].
+The hardest thing to do was working on the dataset. We took it from [here](https://github.com/uamughal/UAVs-Dataset-Under-Normal-and-Cyberattacks).
 As you can see, the dataset comprises 5 classes (Bening, DoS, Replay Attack, Evil Twin, FDI) and for each one of them there are 2 type of features, Cyber(e.g. 'frame.number', 'wlan.duration') and Physical ones (e.g. 'pitch','roll','yaw'). After doing some study on the data, we decided to remove the FDI (False Data Injection) class because the physical and Cyber features where completely different from the ones of other class, and so making it impossible for us to build a coherent model.
 
 In total, for every class, we had 37 Cyber-Features and 16 Physical Features. Later in the study, we discovered that not all the classes have the same features. As it is the case for the data belonging to the Evil Twin attack, so we decided to create two different dataset:
@@ -89,3 +89,11 @@ DATASET 2
 ![image](https://github.com/user-attachments/assets/b032bfbd-0605-42b6-aa08-8d1fc3f8d66a)
 
 
+# Conclusion
+We can consider building a Real-Time Intrusion Detection System  placing sensors on the drone and  using edge AI hardware like NVIDIA Jetson Nano or Intel Movidius to use our model on board while flying.
+
+
+
+
+#References
+[Original Paper](https://ieeexplore.ieee.org/abstract/document/10368002)
