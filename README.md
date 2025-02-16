@@ -80,6 +80,7 @@ Regardin Non-PCA operations, Naive bayesia Model instead improves a lot, since f
 One impotant thing to get from these graphs below is that among the most important features, we have physical features. They help a lot the model in classifying classes correctly.
 
 DATASET 1
+
 ![image](https://github.com/user-attachments/assets/c5c90fef-f4f5-49f8-91c5-728d8e8ed695)
 
 
