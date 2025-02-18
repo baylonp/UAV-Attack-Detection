@@ -10,7 +10,7 @@ THe code related to the analyses regarding the Dataset1 is in the **Modello1_Pro
 
 # Table Of Content
 
-- [Introduction to Legislative Aspects](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects)[by Vanessa Valeri](https://www.linkedin.com/in/vanessa-valeri-1007682b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+- [Introduction to Legislative Aspects](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects) [(by Vanessa Valeri)](https://www.linkedin.com/in/vanessa-valeri-1007682b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 )
 
 - [Dataset](https://github.com/baylonp/UAV-Attack-Detection#dataset)
