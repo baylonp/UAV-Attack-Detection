@@ -3,7 +3,7 @@
 
 # UAV-Attack-Detection
 
-In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wanted to apply some knowledge of Artificial Intelligence to Cybersecurity, and ended up building a model that recognizes when UAV (Unmanned Aerial Vehicles) are under attack. This README will explain the results we obtained using various models and the knowledge we gained from this work. IPYNB scripts are provided in order to replicate the work.
+In this project, me and [Davide Di Rocco](https://github.com/Davide-Di-Rocco-88) wanted to apply some knowledge of Artificial Intelligence to Cybersecurity, and ended up building a model that recognizes when UAV (Unmanned Aerial Vehicles) are under attack. This README will explain the results we obtained using various models and the knowledge we gained from this work. IPYNB scripts are provided in order to replicate the work.
 
 
 # Table Of Content
