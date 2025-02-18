@@ -1,6 +1,23 @@
+
+
+
 # UAV-Attack-Detection
 
 In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wanted to apply some knowledge of Artificial Intelligence to Cybersecurity, and ended up building an a model that recognize when UAV (Unmanned Aerial Vehicle) are under attack. This README will explain the results we obtained using various models and the knowledge we gained from this work. IPYNB script are provided in order to replicate the work.
+
+
+# Table Of Content
+
+- [Dataset](https://github.com/baylonp/UAV-Attack-Detection#dataset)
+  - [How to create one single dataset from 2 groups of features?](https://github.com/baylonp/UAV-Attack-Detection#how-to-create-one-single-dataset-from-2-groups-of-features)
+- [Models](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#models)
+- [Additional Work](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#additional-work)
+- [Dataset 1 Analysis](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#dataset-1-analysis)
+  - [PCA (Principal Component Aalysis)](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#pca-analysis)
+- [Dataset 2 Analysis](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#dataset-2)
+- [Feauture Importance](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#feature-importance)
+- [Conclusions](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#conclusion)
+- [References]()
 
 
 # Dataset
@@ -29,7 +46,9 @@ Since cyber and phyisical features needed to be put in one single dataset in ord
 Since it was an educational work, we applied 3 models to these three datasets:
 - Decision Tree
 - Näive Bayesian
-- Multi-Layer Feed Forward Neural Network
+- Multi-Layer Feed Forward Neural Network.
+
+  Regarding the Multi-Layer Feed Forward Neural Network, since time didn't let us do the proper fine tuning, we tried chaging the activation function from ReLU to Sigmoid, but it didn't output any considerable results
 
 
 # Additional work
@@ -95,5 +114,5 @@ We can consider building a Real-Time Intrusion Detection System  placing sensors
 
 
 
-#References
+# References
 [Original Paper](https://ieeexplore.ieee.org/abstract/document/10368002)
