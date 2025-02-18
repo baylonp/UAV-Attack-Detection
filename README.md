@@ -25,7 +25,7 @@ THe code related to the analyses regarding the Dataset1 is in the **Modello1_Pro
 - [References](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#references)
 
 
-# Introduction to Legislative Aspects by [Vanessa Valeri]()
+# Introduction to Legislative Aspects by Vanessa Valeri
 
 Over the years, drone technology has become widespread and omnipresent in our society. Initially designed and developed for military purposes, these devices are now essential in key sectors such as agriculture, surveillance, and humanitarian emergencies.
 
