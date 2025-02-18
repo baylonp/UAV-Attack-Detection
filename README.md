@@ -8,6 +8,8 @@ In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wa
 
 # Table Of Content
 
+- [Introduction to Legislative Aspects]()
+
 - [Dataset](https://github.com/baylonp/UAV-Attack-Detection#dataset)
   - [How to create one single dataset from 2 groups of features?](https://github.com/baylonp/UAV-Attack-Detection#how-to-create-one-single-dataset-from-2-groups-of-features)
 - [Models](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#models)
@@ -17,8 +19,26 @@ In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wa
 - [Dataset 2 Analysis](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#dataset-2)
 - [Feauture Importance](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#feature-importance)
 - [Conclusions](https://github.com/baylonp/UAV-Attack-Detection?tab=readme-ov-file#conclusion)
-- [References]()
+- [References](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#references)
 
+
+# Introduction to Legislative Aspects
+
+Over the years, drone technology has become widespread and omnipresent in our society. Initially designed and developed for military purposes, these devices are now essential in key sectors such as agriculture, surveillance, and humanitarian emergencies.
+Major companies like Amazon are testing rapid delivery services using drones, while in agriculture, drones have proven to be highly efficient in monitoring crops. However, their use has raised, and continues to raise, numerous political, social, and legal questions.
+
+As a result, a legislative intervention was necessary—one that would not be limited to individual states but would lay the foundations for harmonized regulation.
+At the international level, several organizations and treaties regulate drone use, including the International Civil Aviation Organization (ICAO), which is currently developing an integrated traffic management system for drones (the so-called UTM - Unmanned Traffic Management), and the European Union Aviation Safety Agency (EASA). The latter’s main regulation, Regulation (EU) 2019/947, which came into force in 2019, distinguishes between different categories of drone use: open, specific, and certified, depending on the level of risk to the public. This tiered system allows, among other things, for a distinction between drones used for recreational purposes (hobby flying) and those used for commercial or industrial applications.
+
+At the national level, drone use is governed by Regulation (EU) 2019/947, supplemented by the Italian UAS-IT Regulation, adopted by ENAC (the Italian Civil Aviation Authority). This authority defines drones as Remotely Piloted Aircraft (RPA) and sets specific rules regarding:
+    • The maximum flight altitude, generally set at 120 meters to ensure the safety of populated areas (though this is not an absolute limit);
+    • The requirement to always keep the drone within the pilot's direct line of sight (VLOS – Visual Line of Sight), applicable to the open category;
+    • No-fly zones, including airports, military bases, and densely populated urban areas;
+    • The mandatory registration of drones weighing more than 250 grams and the requirement to obtain a license for commercial drone pilots and for those operating in the open category.
+In parallel, Regulation (EU) 2019/945 establishes technical and safety requirements for the manufacturing and sale of drones within the European market, introducing a classification system from C0 to C6 and making CE marking mandatory from 2024.
+
+Additionally, regarding privacy and personal data protection, the General Data Protection Regulation (GDPR) mandates that drone operators, especially those using drones for commercial purposes, comply with strict criteria such as data minimization and obtaining consent from individuals being recorded when applicable (particularly when footage is used for commercial distribution).
+In conclusion, it is clear that drones represent a technology with immense potential. However, while they can bring extraordinary benefits, they also pose risks of misuse and abuse, making it crucial to accompany their adoption with public debate and a clear, shared regulatory framework. Only in this way will it be possible to fully harness the opportunities offered by this innovation while ensuring the protection of fundamental rights and collective security.
 
 # Dataset
 
