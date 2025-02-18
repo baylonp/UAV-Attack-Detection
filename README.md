@@ -7,11 +7,11 @@ In this project, me and [Davide Di Rocco](https://github.com/Davide-Di-Rocco-88)
 
 THe code related to the analyses regarding the Dataset1 is in the **Modello1_ProjAI.ipynb** file, regarding the Dataset2 analyses, the code is in **Modello2_ProjAI.ipynb** file.
 
-https://www.linkedin.com/in/vanessa-valeri-1007682b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 # Table Of Content
 
-- [Introduction to Legislative Aspects by Vanessa Valeri](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects)
+- [Introduction to Legislative Aspects by](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects) [Vanessa Valeri](https://www.linkedin.com/in/vanessa-valeri-1007682b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+)
 
 - [Dataset](https://github.com/baylonp/UAV-Attack-Detection#dataset)
   - [How to create one single dataset from 2 groups of features?](https://github.com/baylonp/UAV-Attack-Detection#how-to-create-one-single-dataset-from-2-groups-of-features)
