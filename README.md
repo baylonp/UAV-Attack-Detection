@@ -8,7 +8,7 @@ In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wa
 
 # Table Of Content
 
-- [Introduction to Legislative Aspects](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects)
+- [Introduction to Legislative Aspects by Vanessa Valeri](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#introduction-to-legislative-aspects)
 
 - [Dataset](https://github.com/baylonp/UAV-Attack-Detection#dataset)
   - [How to create one single dataset from 2 groups of features?](https://github.com/baylonp/UAV-Attack-Detection#how-to-create-one-single-dataset-from-2-groups-of-features)
