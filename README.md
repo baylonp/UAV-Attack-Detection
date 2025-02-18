@@ -32,10 +32,12 @@ As a result, a legislative intervention was necessary—one that would not be li
 At the international level, several organizations and treaties regulate drone use, including the **International Civil Aviation Organization (ICAO)**, which is currently developing an integrated traffic management system for drones (the so-called UTM - Unmanned Traffic Management), and the **European Union Aviation Safety Agency (EASA)**. The latter’s main regulation, Regulation (EU) 2019/947, which came into force in 2019, distinguishes between different categories of drone use: open, specific, and certified, depending on the level of risk to the public. This tiered system allows, among other things, for a distinction between drones used for recreational purposes (hobby flying) and those used for commercial or industrial applications.
 
 At the **national level**, drone use is governed by Regulation (EU) 2019/947, supplemented by the Italian UAS-IT Regulation, adopted by ENAC (the Italian Civil Aviation Authority). This authority defines drones as Remotely Piloted Aircraft (RPA) and sets specific rules regarding:
-    - The maximum flight altitude, generally set at 120 meters to ensure the safety of populated areas (though this is not an absolute limit);
-    - The requirement to always keep the drone within the pilot's direct line of sight (VLOS – Visual Line of Sight), applicable to the open category;
-    - No-fly zones, including airports, military bases, and densely populated urban areas;
-    - The mandatory registration of drones weighing more than 250 grams and the requirement to obtain a license for commercial drone pilots and for those operating in the open category.
+
+- The maximum flight altitude, generally set at 120 meters to ensure the safety of populated areas (though this is not an absolute limit);
+- The requirement to always keep the drone within the pilot's direct line of sight (VLOS – Visual Line of Sight), applicable to the open category;
+- No-fly zones, including airports, military bases, and densely populated urban areas;
+- The mandatory registration of drones weighing more than 250 grams and the requirement to obtain a license for commercial drone pilots and for those operating in the open category.
+
 In parallel, Regulation (EU) 2019/945 establishes technical and safety requirements for the manufacturing and sale of drones within the European market, introducing a classification system from C0 to C6 and making CE marking mandatory from 2024.
 
 
