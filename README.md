@@ -22,7 +22,7 @@ In this project, me and [my colleague](https://github.com/Davide-Di-Rocco-88) wa
 - [References](https://github.com/baylonp/UAV-Attack-Detection/blob/main/README.md#references)
 
 
-# Introduction to Legislative Aspects
+# Introduction to Legislative Aspects by [Vanessa Valeri]()
 
 Over the years, drone technology has become widespread and omnipresent in our society. Initially designed and developed for military purposes, these devices are now essential in key sectors such as agriculture, surveillance, and humanitarian emergencies.
 
