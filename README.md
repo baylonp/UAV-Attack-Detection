@@ -5,7 +5,7 @@
 
 In this project, me and [Davide Di Rocco](https://github.com/Davide-Di-Rocco-88) wanted to apply some knowledge of Artificial Intelligence to Cybersecurity, and ended up building a model that recognizes when UAV (Unmanned Aerial Vehicles) are under attack. This README will explain the results we obtained using various models and the knowledge we gained from this work. IPYNB scripts are provided in order to replicate the work.
 
-THe code related to the analyses regarding the Dataset1 is in the **Modello1_AIProj.ipynb** file, regarding the Dataset2 analyses, the code is in **Modello2_AiProj.ipynb** file.
+THe code related to the analyses regarding the Dataset1 is in the **Modello1_ProjAI.ipynb** file, regarding the Dataset2 analyses, the code is in **Modello2_ProjAI.ipynb** file.
 
 # Table Of Content
 
